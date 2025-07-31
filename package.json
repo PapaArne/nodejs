@@ -4,10 +4,11 @@
   "description": "Een eenvoudige Node.js test applicatie",
   "main": "index.js",
   "scripts": {
-    "build": "npm ci",
-    "serve": "cp -r ./ /data/sites/web/pipelinearne-vermoensbe/www/ && node /data/sites/web/pipelinearne-vermoensbe/www/index.js"
+    "build": "npm ci && npm run build:copy",
+    "build:copy": "cp -r dist/* www/",
+    "serve": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2"
   }
-}
+}}
