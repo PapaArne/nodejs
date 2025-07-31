@@ -1,11 +1,11 @@
 {
   "name": "test-app",
   "version": "1.0.0",
-  "description": "Een eenvoudige Node.js testapplicatie",
+  "description": "Een eenvoudige Node.js test applicatie",
   "main": "index.js",
   "scripts": {
     "build": "npm ci",
-    "serve": "cp -r * /data/sites/web/pipelinearne-vermoensbe/www && node index.js"
+    "serve": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2"
