@@ -1,11 +1,10 @@
 {
   "name": "test-app",
   "version": "1.0.0",
-  "description": "Een eenvoudige Node.js test applicatie",
+  "description": "Een eenvoudige Node.js testapplicatie",
   "main": "index.js",
   "scripts": {
-    "build": "npm ci && npm run build:copy",
-    "build:copy": "cp -r dist/* www/",
+    "build": "npm ci",
     "serve": "node index.js"
   },
   "dependencies": {
